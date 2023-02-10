@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+button{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    color: green;
+
+}

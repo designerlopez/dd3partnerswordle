@@ -1,0 +1,44 @@
+@import "./variables.modules.scss";
+
+@mixin box{
+    font-size:35px;
+    font-weight: 800;
+    width: $size;
+    height: $size;
+    border-radius:5px;
+    background: rgba(147, 155, 159, 0.3);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentLetter{
+    @include box;
+    background-color: #CEB02C;
+    
+}
+
+.notPresentLetter{
+    @include box;
+    background-color: #939B9F;
+
+}
+
+.correctLetter{
+    @include box;
+    background-color: #66A060;
+    
+
+}
+.empty{
+    @include box;
+    
+
+}
+
+.edit{
+    @include box;
+
+
+}

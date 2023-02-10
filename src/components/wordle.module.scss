@@ -1,0 +1,11 @@
+@import "./variables.modules.scss";
+
+.mainContainer{
+    max-width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto; 
+    
+}
